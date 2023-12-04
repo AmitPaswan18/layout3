@@ -1,88 +1,109 @@
-
-
 * {
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
 
-    font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/* navbar */
 .box1 {
-    background-color: black;
-    color: aliceblue;
-    padding-top: 15px;
-    padding-left: 50px;
-    height: 40px;
-    width: 100%;
-
+  background-color: black;
+  color: aliceblue;
+  padding-top: 15px;
+  padding-left: 94px;
+  height: 40px;
+  width: 96%;
 }
 .navbar-item {
-    margin: 3px;
+  /* margin: 3px; */
+  padding: 2px;
+  color: #94b3cc;
 }
 
-/* card */
-.page-heading{
-    font-size: large;
-    width: 400px;
-    font-weight: 500;
-
+.page-heading {
+  font-size: large;
+  width: 400px;
+  font-weight: 500;
 }
 
-.card-image{
-    height: 150px;
-    width: 300px;
+.card-image {
+  height: 150px;
+  width: 300px;
 }
 
 .card {
-    margin-left: 18px;
-    width: 260px;
-    font-size: small;
-    display: inline-block;
+  margin-left: 18px;
+  width: 260px;
+  font-size: small;
+  display: inline-block;
 }
 
 .main-card {
-    height: 200px;
-    width: 220px;
-    margin: 1em 80px 2em;
-    display: inline-block;
-
+  height: 200px;
+  width: 220px;
+  margin: 1em 80px 2em;
+  display: inline-block;
 }
 
 .card-name {
-    color: #5B92CA;
-    margin: 3px;
+  color: #5b92ca;
+  margin: 3px;
 }
 
-
-
-
 .card-title {
-    margin: 2px;
-    font-size: small;
+  margin: 2px;
+  font-size: small;
 }
 
 .footer {
-    text-align: start;
-    padding-left: 78px;
-    margin: 20px 20px;
+  text-align: start;
+  padding-left: 78px;
+  margin: 20px 20px;
 }
 
 .heading {
-    width: 100%;
-    margin: 20px 20px;
-    font-size: medium;
+  width: 100%;
+  margin: 20px 20px;
+  font-size: medium;
 }
 
+@media screen and (max-width: 600px) {
+  .box1 {
+    padding-left: 100px;
+    width: 100%;
+  }
 
+  .card {
+    font-size: smaller;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .main-card {
+    width: 40%;
+    margin: 20px;
+  }
+  .box1 {
+    padding-left: 42px;
+    width: 100%;
+  }
 
+  .footer {
+    padding-left: 25px;
+  }
+}
 
-@media screen and (max-width: 768px) {
-    .box1 {
-        width: 100%;
-    }
+@media screen and (min-width: 1025px) {
+  .box1 {
+    padding-left: 40px;
+  }
+  .main-card {
+    width: 30%;
+    padding-left: 10px;
+    margin: 2em 1%;
+  }
 
-  
+  .footer {
+    padding-left: 18px;
+  }
 }
