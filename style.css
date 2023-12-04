@@ -130,9 +130,12 @@
 
 @media screen and (min-width: 920px) and (max-width: 1340px) {
   .box1 {
-    padding-left: 75px;
+    padding-left: 55px;
+    width: 95%;
+  }
 
-    width: 93%;
+  .navbar{
+    width: 98%;
   }
 
   .main-card {
@@ -141,7 +144,7 @@
     margin: auto;
   }
   .footer {
-    padding-left: 40px;
+    padding-left: 35px;
     width: 30%;
   }
 }
@@ -151,7 +154,7 @@
     margin: auto;
   }
   .box1 {
-    padding-left: 40px;
+    padding-left: 100px;
   }
 
   .container {
