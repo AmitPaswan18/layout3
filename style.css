@@ -44,6 +44,7 @@
 .secondary {
   opacity: 0.5;
   color: gray;
+  font-size: 20px;
 }
 
 .main-card {
@@ -89,14 +90,19 @@
     width: 100%;
     margin: auto;
   }
+  .navbar {
+    width: 100%;
+    background-color: black;
+  }
 
   .box1 {
-    padding-left: 30px;
-    width: 80%;
+    padding-left: 50px;
+    width: 100%;
   }
 
   .main-card {
     width: 100%;
+    padding-left: 33px;
     height: fit-content;
     margin: auto;
     font-size: small;
@@ -106,8 +112,8 @@
     font-size: smaller;
   }
 
-  .footer{
-    padding: 14px
+  .footer {
+    padding: 24px;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 919px) {
@@ -140,7 +146,7 @@
     width: 95%;
   }
 
-  .navbar{
+  .navbar {
     width: 98%;
   }
 
